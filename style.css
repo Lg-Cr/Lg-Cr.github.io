@@ -1,0 +1,89 @@
+body {
+    background-color: #ddddff;
+    color: #222222;
+}
+
+p {
+    font-family: "思源黑体";
+    font-size: 15px;
+}
+
+li {
+    font-family: "思源黑体";
+    font-size: 15px;
+}
+
+code {
+    font-size: 14px;
+}
+
+/*滚动条里面轨道*/
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0);
+    background-color: rgb(20, 19, 19);
+}
+
+/*定义滚动条整体的样式*/
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(20, 19, 19);
+}
+
+/*滚动条的样式*/
+body::-webkit-scrollbar-thumb {
+    height: 20px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.2, rgb(125, 126, 128)),
+            color-stop(0.4, rgb(97, 98, 99)),
+            color-stop(0.8, rgb(125, 126, 128)));
+}
+
+body {
+    padding-bottom: 50px;
+    padding-top: 200px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #bbbbff;
+    z-index: 9998;
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 9999;
+    background-color: #bbbbff;
+}
+
+.box {
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background-color: #ccccff;
+    height: 300px;
+    border: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+.art {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

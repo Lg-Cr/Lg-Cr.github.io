@@ -1,6 +1,6 @@
 +++
 date = '2025-03-29T18:01:46+08:00'
-draft = true
+draft = false
 title = '在 archlinux 上 Hugo 和 Github Pages 建站记录'
 +++
 

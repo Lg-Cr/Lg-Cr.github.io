@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://lg-cr.github.io/</loc>
     <lastmod>2025-03-29T18:01:46+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://lg-cr.github.io/posts/</loc>
     <lastmod>2025-03-29T18:01:46+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/how-this-was-built/</loc>
+    <loc>https://lg-cr.github.io/posts/how-this-was-built/</loc>
     <lastmod>2025-03-29T18:01:46+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/about/</loc>
+    <loc>https://lg-cr.github.io/posts/about/</loc>
     <lastmod>2025-03-29T11:50:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://lg-cr.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://lg-cr.github.io/tags/</loc>
   </url>
 </urlset>

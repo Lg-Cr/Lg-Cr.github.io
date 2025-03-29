@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lg-cr.github.io/'
 languageCode = 'zh-cn'
 title = 'Infterless Website'
 theme = 'paper'

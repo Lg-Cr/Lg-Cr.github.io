@@ -12,7 +12,7 @@ menu:
   main:
     - identifier: "about"
       name: "About"
-      url: "/about/"
+      url: "/posts/about/"
     - identifier: "archives"
       name: "Archives"
       url: "/archives/"

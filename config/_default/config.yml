@@ -16,3 +16,6 @@ menu:
     - identifier: "archives"
       name: "Archives"
       url: "/archives/"
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"

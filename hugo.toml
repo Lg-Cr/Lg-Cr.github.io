@@ -1,5 +1,5 @@
 baseURL = 'https://lg-cr.github.io/'
 languageCode = 'zh-cn'
 title = 'Infterless Website'
-theme = 'papermod'
+theme = 'PaperMod'
 comments = true

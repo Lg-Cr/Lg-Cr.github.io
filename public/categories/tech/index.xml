@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Infterless Website</title>
-    <link>https://lg-cr.github.io/posts/</link>
-    <description>Recent content in Posts on Infterless Website</description>
+    <title>Tech on Infterless Website</title>
+    <link>https://lg-cr.github.io/categories/tech/</link>
+    <description>Recent content in Tech on Infterless Website</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Mar 2025 18:01:46 +0800</lastBuildDate>
-    <atom:link href="https://lg-cr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lg-cr.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 archlinux 上 Hugo 和 Github Pages 建站记录</title>
       <link>https://lg-cr.github.io/posts/how-this-was-built/</link>

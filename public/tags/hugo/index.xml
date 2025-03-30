@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Infterless Website</title>
-    <link>https://lg-cr.github.io/posts/</link>
-    <description>Recent content in Posts on Infterless Website</description>
+    <title>Hugo on Infterless Website</title>
+    <link>https://lg-cr.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Infterless Website</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Mar 2025 18:01:46 +0800</lastBuildDate>
-    <atom:link href="https://lg-cr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lg-cr.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 archlinux 上 Hugo 和 Github Pages 建站记录</title>
       <link>https://lg-cr.github.io/posts/how-this-was-built/</link>
@@ -31,26 +31,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后安装主题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后打开 &lt;code&gt;config.toml&lt;/code&gt; 文件，在文件中加入以下内容：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://lg-cr.github.io/posts/about/</link>
-      <pubDate>Sat, 29 Mar 2025 11:50:42 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/about/</guid>
-      <description>&lt;p&gt;I am Infterlessness.&lt;/p&gt;
-&lt;p&gt;在这里我将会记录一些关于我的生活和学习的事情。&lt;/p&gt;
-&lt;p&gt;The End?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Code&lt;/code&gt;&lt;/p&gt;
-$$
-\begin{bmatrix}
-1 &amp; 2 \\
-3 &amp; 4
-\end{bmatrix}
-$$</description>
     </item>
   </channel>
 </rss>

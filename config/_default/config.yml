@@ -1,4 +1,6 @@
 params:
+  show_categories_on_home: true
+  show_tags_on_home: true
   ShowReadingTime: true
   ShowShareButtons: true
   comments: true
@@ -27,6 +29,14 @@ menu:
     - identifier: "search"
       name: "Search"
       url: "/search/"
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 1
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 2
 outputs:
   home:
     - HTML

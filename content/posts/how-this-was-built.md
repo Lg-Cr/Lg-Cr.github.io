@@ -2,6 +2,8 @@
 date = '2025-03-29T18:01:46+08:00'
 draft = false
 title = '在 archlinux 上 Hugo 和 Github Pages 建站记录'
+categories = ['Tech']
+tags = ['Archlinux', 'Hugo', 'Github Pages']
 +++
 
 > Tip : 本文作者是在 archlinux 系统上构建的，如果你使用其他系统，可能需要做一些更改。

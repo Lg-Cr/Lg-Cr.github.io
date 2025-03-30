@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Basic on Infterless Website</title>
+    <link>https://lg-cr.github.io/tags/basic/</link>
+    <description>Recent content in Basic on Infterless Website</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 29 Mar 2025 11:50:42 +0800</lastBuildDate>
+    <atom:link href="https://lg-cr.github.io/tags/basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://lg-cr.github.io/posts/about/</link>
+      <pubDate>Sat, 29 Mar 2025 11:50:42 +0800</pubDate>
+      <guid>https://lg-cr.github.io/posts/about/</guid>
+      <description>&lt;p&gt;I am Infterlessness.&lt;/p&gt;
+&lt;p&gt;在这里我将会记录一些关于我的生活和学习的事情。&lt;/p&gt;
+&lt;p&gt;The End?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Code&lt;/code&gt;&lt;/p&gt;
+$$
+\begin{bmatrix}
+1 &amp; 2 \\
+3 &amp; 4
+\end{bmatrix}
+$$</description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,9 @@
 params:
+  ShowReadingTime: true
+  ShowShareButtons: true
   comments: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   homeInfoParams:
     Title: Welcome Friends!
     Content: Per Aspera Ad Astra!

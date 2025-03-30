@@ -6,6 +6,8 @@ title = 'About'
 
 I am Infterlessness.
 
+在这里我将会记录一些关于我的生活和学习的事情。
+
 The End?
 
 ---

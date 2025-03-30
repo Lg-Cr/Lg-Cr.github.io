@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Infterless Website</title>
-    <link>https://lg-cr.github.io/</link>
+    <link>http://localhost:1313/zh/</link>
     <description>Recent content on Infterless Website</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Mar 2025 18:01:46 +0800</lastBuildDate>
-    <atom:link href="https://lg-cr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 archlinux 上 Hugo 和 Github Pages 建站记录</title>
-      <link>https://lg-cr.github.io/posts/how-this-was-built/</link>
+      <link>http://localhost:1313/zh/posts/how-this-was-built/</link>
       <pubDate>Sat, 29 Mar 2025 18:01:46 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/how-this-was-built/</guid>
+      <guid>http://localhost:1313/zh/posts/how-this-was-built/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Tip : 本文作者是在 archlinux 系统上构建的，如果你使用其他系统，可能需要做一些更改。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;这个网站是我使用 Hugo 构建的，部署到了 Github Pages，Hugo 是一款开源静态网站生成器，它可以快速、简便地生成静态网站, Github Pages 是 Github 提供的免费静态网站托管服务，它可以让你直接将你的静态网站部署到 Github Pages。&lt;/p&gt;
 &lt;p&gt;网站的主题是基于 &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;PaperMod&lt;/a&gt; 主题，它是一个简洁、轻量级的 Hugo 主题，非常戳我 XP。&lt;/p&gt;
 &lt;h1 id=&#34;准备工作&#34;&gt;准备工作&lt;/h1&gt;
-&lt;p&gt;安装 git, go, dartsass, hugo, openssh。&lt;/p&gt;
+&lt;p&gt;安装 git, go, dartsass, hugo。&lt;/p&gt;
 &lt;p&gt;这在 archlinux 上异常简单：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S git go dartsass hugo openssh
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S git go dartsass hugo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以及你要拥有一个 Github 账号。（不至于这个都没有）&lt;/p&gt;
 &lt;h1 id=&#34;本地搭建&#34;&gt;本地搭建&lt;/h1&gt;
 &lt;p&gt;先找到一个你喜欢的目录，然后创建一个 &lt;code&gt;site&lt;/code&gt;。&lt;/p&gt;
@@ -30,13 +30,15 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后安装主题。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后打开 &lt;code&gt;config.toml&lt;/code&gt; 文件，在文件中加入以下内容：&lt;/p&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后打开 &lt;code&gt;config.toml&lt;/code&gt; 文件，在文件中加入以下内容：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PaperMod&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最后一步，运行 &lt;code&gt;hugo server&lt;/code&gt; 命令，启动本地服务器。&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://lg-cr.github.io/posts/about/</link>
+      <link>http://localhost:1313/zh/posts/about/</link>
       <pubDate>Sat, 29 Mar 2025 11:50:42 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/about/</guid>
+      <guid>http://localhost:1313/zh/posts/about/</guid>
       <description>&lt;p&gt;I am Infterlessness.&lt;/p&gt;
 &lt;p&gt;The End?&lt;/p&gt;</description>
     </item>

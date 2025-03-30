@@ -12,12 +12,12 @@ title = '在 archlinux 上 Hugo 和 Github Pages 建站记录'
 
 # 准备工作
 
-安装 git, go, dartsass, hugo。
+安装 git, go, dartsass, hugo, openssh。
 
 这在 archlinux 上异常简单：
 
 ```Bash
-sudo pacman -S git go dartsass hugo
+sudo pacman -S git go dartsass hugo openssh
 ```
 
 以及你要拥有一个 Github 账号。（不至于这个都没有）
@@ -96,6 +96,18 @@ git config --global user.email "xxx@xxx.xxx"
 
 这里可以随便填，不必与 github 上的一样，这只是在本地区分用户的。
 
+## 配置 SSH
+
+如果你还没有 SSH 密钥，则需要生成一个。
+
+```Bash
+ssh-keygen -C "comment"
+```
+
+在 `~/.ssh` 目录下会生成两个文件：`id_rsa` 和 `id_rsa.pub`，前者是私钥，后者是公钥。
+
+然后在 Github 账户的 SSH and GPG keys 页面，点击 New SSH key，把公钥内容粘贴进去，Title 随便填，然后点击 Add SSH key。
+
 ## 创建仓库
 
 登录 Github，创建一个新的仓库，名字为你的用户名.github.io，然后点击 `Create repository`。
@@ -136,7 +148,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - main
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

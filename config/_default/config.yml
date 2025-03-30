@@ -4,6 +4,8 @@ params:
   comments: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  VisitCount: true
+  ShowWordCount: true
   homeInfoParams:
     Title: Welcome Friends!
     Content: Per Aspera Ad Astra!

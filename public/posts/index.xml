@@ -2,17 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Infterless Website</title>
-    <link>https://lg-cr.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Infterless Website</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Mar 2025 18:01:46 +0800</lastBuildDate>
-    <atom:link href="https://lg-cr.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Mar 2025 20:27:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xydzlbflow1</title>
+      <link>http://localhost:1313/posts/xydzlbflow1/</link>
+      <pubDate>Sun, 30 Mar 2025 20:27:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/xydzlbflow1/</guid>
+      <description>&lt;h1 id=&#34;a&#34;&gt;A&lt;/h1&gt;
+&lt;p&gt;板子，过。&lt;/p&gt;
+&lt;h1 id=&#34;b&#34;&gt;B&lt;/h1&gt;
+&lt;p&gt;考虑把格子看成边，行看成左边一排点，列看成右边一排点，就是二分图匹配。&lt;/p&gt;
+&lt;h1 id=&#34;c&#34;&gt;C&lt;/h1&gt;
+&lt;p&gt;一个超级原 $S$ 和汇 $T$。&lt;/p&gt;
+&lt;p&gt;建左边一排点表示食物，右边一排点表示饮料，中间将奶牛拆成奶和牛，中间连一条 $1$ 边。&lt;/p&gt;
+&lt;p&gt;$S$ 到 左边一排连 $1$ 的边，$T$ 到 右边一排连 $1$ 的边，食物和奶连 $1$ 的边，饮料和牛连 $1$ 的边。&lt;/p&gt;
+&lt;h1 id=&#34;d&#34;&gt;D&lt;/h1&gt;
+&lt;p&gt;建一个按照时间的分层图，然后暴力连边就行了，这个数据范围超级宽裕。&lt;/p&gt;
+&lt;h1 id=&#34;e&#34;&gt;E&lt;/h1&gt;
+&lt;p&gt;二分图匹配板子。&lt;/p&gt;
+&lt;h1 id=&#34;f&#34;&gt;F&lt;/h1&gt;
+&lt;p&gt;相当于二分图匹配，但是因为有 $c_i$ 和 $r_i$，所以要把与超级源汇的边改为 $c_i$ 和 $r_i$。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>在 archlinux 上 Hugo 和 Github Pages 建站记录</title>
-      <link>https://lg-cr.github.io/posts/how-this-was-built/</link>
+      <link>http://localhost:1313/posts/how-this-was-built/</link>
       <pubDate>Sat, 29 Mar 2025 18:01:46 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/how-this-was-built/</guid>
+      <guid>http://localhost:1313/posts/how-this-was-built/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Tip : 本文作者是在 archlinux 系统上构建的，如果你使用其他系统，可能需要做一些更改。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;这个网站是我使用 Hugo 构建的，部署到了 Github Pages，Hugo 是一款开源静态网站生成器，它可以快速、简便地生成静态网站, Github Pages 是 Github 提供的免费静态网站托管服务，它可以让你直接将你的静态网站部署到 Github Pages。&lt;/p&gt;
@@ -34,9 +54,9 @@
     </item>
     <item>
       <title>About</title>
-      <link>https://lg-cr.github.io/posts/about/</link>
+      <link>http://localhost:1313/posts/about/</link>
       <pubDate>Sat, 29 Mar 2025 11:50:42 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/about/</guid>
+      <guid>http://localhost:1313/posts/about/</guid>
       <description>&lt;p&gt;I am Infterlessness.&lt;/p&gt;
 &lt;p&gt;在这里我将会记录一些关于我的生活和学习的事情。&lt;/p&gt;
 &lt;p&gt;The End?&lt;/p&gt;

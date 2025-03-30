@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Archlinux on Infterless Website</title>
-    <link>https://lg-cr.github.io/tags/archlinux/</link>
+    <link>http://localhost:1313/tags/archlinux/</link>
     <description>Recent content in Archlinux on Infterless Website</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Mar 2025 18:01:46 +0800</lastBuildDate>
-    <atom:link href="https://lg-cr.github.io/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 archlinux 上 Hugo 和 Github Pages 建站记录</title>
-      <link>https://lg-cr.github.io/posts/how-this-was-built/</link>
+      <link>http://localhost:1313/posts/how-this-was-built/</link>
       <pubDate>Sat, 29 Mar 2025 18:01:46 +0800</pubDate>
-      <guid>https://lg-cr.github.io/posts/how-this-was-built/</guid>
+      <guid>http://localhost:1313/posts/how-this-was-built/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Tip : 本文作者是在 archlinux 系统上构建的，如果你使用其他系统，可能需要做一些更改。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;这个网站是我使用 Hugo 构建的，部署到了 Github Pages，Hugo 是一款开源静态网站生成器，它可以快速、简便地生成静态网站, Github Pages 是 Github 提供的免费静态网站托管服务，它可以让你直接将你的静态网站部署到 Github Pages。&lt;/p&gt;

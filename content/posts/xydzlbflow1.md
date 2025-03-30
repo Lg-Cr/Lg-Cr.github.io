@@ -2,6 +2,8 @@
 date = '2025-03-30T20:27:29+08:00'
 draft = false
 title = '心有错蠢灵班网络流作业第一讲题解'
+tags = ['网络流', '信友队']
+categories = ['OI']
 +++
 
 # A

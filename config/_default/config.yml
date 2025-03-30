@@ -6,6 +6,8 @@ params:
   ShowCodeCopyButtons: true
   VisitCount: true
   ShowWordCount: true
+  math: true
+
   homeInfoParams:
     Title: Welcome Friends!
     Content: Per Aspera Ad Astra!
@@ -30,3 +32,17 @@ outputs:
     - HTML
     - RSS
     - JSON
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true

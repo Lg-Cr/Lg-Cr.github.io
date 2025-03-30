@@ -38,7 +38,18 @@
       <pubDate>Sat, 29 Mar 2025 11:50:42 +0800</pubDate>
       <guid>https://lg-cr.github.io/posts/about/</guid>
       <description>&lt;p&gt;I am Infterlessness.&lt;/p&gt;
-&lt;p&gt;The End?&lt;/p&gt;</description>
+&lt;p&gt;The End?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Code&lt;/code&gt;&lt;/p&gt;
+$$
+\begin{bmatrix}
+1 &amp; 2 \\
+3 &amp; 4
+\end{bmatrix}
+$$</description>
     </item>
   </channel>
 </rss>

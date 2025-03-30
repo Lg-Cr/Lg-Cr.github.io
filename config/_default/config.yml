@@ -32,11 +32,9 @@ menu:
     - identifier: "tags"
       name: "Tags"
       url: "/tags/"
-      weight: 1
     - identifier: "categories"
       name: "Categories"
       url: "/categories/"
-      weight: 2
 outputs:
   home:
     - HTML
